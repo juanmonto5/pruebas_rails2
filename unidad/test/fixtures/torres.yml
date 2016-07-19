@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre_torre: MyString
+  nombre_portero: MyString
+
+two:
+  nombre_torre: MyString
+  nombre_portero: MyString
