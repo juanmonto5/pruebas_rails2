@@ -1,0 +1,64 @@
+@import "materialize";
+.letra {
+  font-size: 2em;
+}
+
+#forma{
+	background: aliceblue;
+}
+
+.panel panel-default{
+	background: blue;
+}
+
+nav{
+	background:#2C3E50;
+}
+
+#collapse{
+	background:#5bc0de;
+}
+
+h4{
+	font-size:16px;
+}
+
+#tip1{
+	background: beige;
+	    padding-right: 15px;
+    padding-left: 15px;
+
+}
+#tip2{
+	background: aquamarine;
+	    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+#tip3{
+	background: coral;
+	    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+#tips{
+	 padding: 0px;
+
+
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #18BC9C;
+  outline: none;
+}
+.collapsible-body p{
+	    padding: 1rem;
+}
+label {
+	font-size: 1.2em;
+	color: cornflowerblue;
+	font-weight: bold;
+}

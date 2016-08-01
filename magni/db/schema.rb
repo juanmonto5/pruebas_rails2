@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -10,20 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160721141916) do
+ActiveRecord::Schema.define(version: 20160730013734) do
 
-  create_table "apartamentos", force: :cascade do |t|
-    t.integer  "piso"
-    t.integer  "torre"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "torres", force: :cascade do |t|
-    t.string   "nombre_torre"
-    t.string   "nombre_portero"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+  create_table "emails", force: :cascade do |t|
+    t.string   "tipo"
+    t.string   "remitente"
+    t.string   "destinatario"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
 end

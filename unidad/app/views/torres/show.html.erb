@@ -9,6 +9,19 @@
   <strong>Nombre portero:</strong>
   <%= @torre.nombre_portero %>
 </p>
+<h2>Agrega un apartamento:</h2>
+  <h2>Add a apartamento:</h2>
+<%= form_for([@torre, @torre.apartamentos.build]) do |f| %>
+  <p>
+    <%= f.label :piso %><br>
+    <%= f.text_field :piso %>
+  </p>
+  
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
 
 <%= link_to 'Edit', edit_torre_path(@torre) %> |
 <%= link_to 'Back', torres_path %>
